@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  href="index.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="total">
+        <div class="side1">
+            <h2> HOME</h2>
+            <div class="black-background" id="black-bg-home">
+            <h3 id="total-home-el">0</h3>
+            </div>
+            <div class="button-heading">
+                <button id="plus3-home" onclick="addthree()">+3</button>
+                <button id="plus2-home" onclick="addtwo()">+2</button>
+                <button id="plus1-home" onclick="addone()">+1</button>
+            </div>    
+        </div>
+        <div class="side">
+            <h2> AWAY</h2>
+            <div class="black-background" id="black-bg-guest">
+            <h3 id="total-away-el">0</h3>
+            </div>
+            <div class="button-heading">
+                <button id="plus3-guest" onclick="addthreeguest()">+3</button>
+                <button id="plus2-guest" onclick="addtwoguest()">+2</button>
+                <button id="plus1-guest" onclick="addoneguest()">+1</button>
+            </div>
+
+        </div>   
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
